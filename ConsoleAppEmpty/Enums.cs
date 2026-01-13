@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GitHub_Practice
+namespace GameEnums
 {
     public enum GameDifficulty
     {
-        Easy,
+        Easy = 1,
         Medium,
         Hard
     }
     public enum CharacterClass
     {
-        Warrior,
+        Warrior = 1,
         Mage,
         Rogue
     }
